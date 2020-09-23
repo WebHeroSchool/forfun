@@ -1,0 +1,62 @@
+* {
+  border: 1px dashed red;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+mark {
+  background: #ECF3FF;
+
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__sandwitch {
+  display: none;
+}
+
+.header__nav-item {
+  color: #000;
+  text-decoration: none;
+}
+
+.header__nav-item--current {
+  border-bottom: 3px solid #0056EC;
+}
+
+.logo__text {
+  font-family: "PT Serif", serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__title {
+  font-family: "PT Serif", serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #C8DBFB;
+  margin: 0 2px;
+}
