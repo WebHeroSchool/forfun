@@ -1,4 +1,55 @@
+* {
+  border: 1px dashed red;
+}
+
 body {
   font-family: 'PTSerif', serif;
   margin: 0;
+}
+
+mark {
+  background: #ECF3FF;
+
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__sandwitch {
+  display: none;
+}
+
+.nav__item {
+  color: #000;
+  font-weight: 500; /* в данном случае не работает, шрифт PT Serif medium найти не удалось */
+  text-decoration: none;
+}
+
+.current {
+  border-bottom: 3px solid #0056EC;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #C8DBFB;
+  margin: 0 2px;
 }
