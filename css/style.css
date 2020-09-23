@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'PTSerif', serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -26,19 +26,26 @@ mark {
   display: none;
 }
 
-.nav__item {
+.header__nav-item {
   color: #000;
-  font-weight: 500; /* в данном случае не работает, шрифт PT Serif medium найти не удалось */
   text-decoration: none;
 }
 
-.current {
+.header__nav-item--current {
   border-bottom: 3px solid #0056EC;
+}
+
+.logo__text {
+  font-family: "PT Serif", serif;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
+}
+
+.content__title {
+  font-family: "PT Serif", serif;
 }
 
 .footer {
